@@ -1,0 +1,94 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#logotext  {
+    position: absolute;
+    top:50px;
+    left:0;
+    right: 0;
+    text-align: center;
+    font-size: 35px;    
+    font-family: fantasy;
+}
+
+
+#username { 
+    position: absolute;
+    top:200px;
+    left:0;
+    right:0;
+    margin: auto;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-family: monospace;
+}
+
+
+#username[type="text"] { 
+    background-color: transparent;
+}
+
+
+#monlist { 
+    position: absolute;
+    top:300px;
+    left:0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.mon { 
+    width:100px;
+    margin: 5px;
+}
+
+
+#enter { 
+    position: absolute;
+    top: 600px;
+    right:0;
+    left:0;
+    margin:auto;
+    width:200px;
+    height:50px;
+  
+}
+
+
+.mon:hover { 
+    border: 1px solid;
+    cursor: pointer;
+    border-color: #ddd;
+    box-shadow: 0 0 10px inset #f1f1f1, 0 0 10px #ddd;
+}
+
+
+body { 
+    background-image: url(pics/secondbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+#main  {
+    background-color: rgba(255, 255, 255, 0.459);
+    width: 400px;
+    height:754px;
+    padding: 20px 0 20px 0;
+    border-radius: 5%;
+    background-clip: content-box; 
+    margin: auto;
+}

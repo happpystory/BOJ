@@ -1,0 +1,123 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: #f1f1f1;
+}
+
+
+#panel {
+    position: absolute;
+    left:0;
+    right:0;
+    top: 440px;
+    margin:auto;
+    width:600px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 4px #111;
+}
+
+
+#question {
+    background-color: darkcyan;
+    padding:20px;
+    font-size: 20px;
+    font-family:monospace;
+    color: white;
+}
+
+
+#answers { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1px;
+    min-width: 0;
+    min-height: 0;
+}
+
+
+.a { 
+    background-color: #fff;
+    padding:20px;
+    overflow: hidden; 
+    min-width: 0;
+}
+
+
+.h:hover { 
+    cursor: pointer;
+    background-color: rgb(212, 200, 32);
+ 
+}
+
+
+#prefmon { 
+    width:150px;
+}
+
+
+#belowpic { 
+    width:150px;
+}
+
+
+#prefname { 
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+#userandpic { 
+    margin-right: 100px;
+}
+
+
+#prefandpic { 
+    align-self: flex-start;
+    margin-left:100px;
+}
+
+
+#username2 { 
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+#fightboard { 
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content:space-between;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    width:600px;
+    top:100px;
+}
+
+
+#vs { 
+    font-size: 25px;
+    font-family:monospace;
+}
+
+
+#countdown { 
+    position: absolute;
+    left:0;
+    right:0;
+    top: 380px;
+    margin:auto;
+    text-align: center;
+    font-size: 30px;
+}

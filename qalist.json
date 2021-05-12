@@ -1,0 +1,190 @@
+data = {
+"miyagi" : { "question" : "What is the name of the island located in the Ishinomaki Bay known as the “Island of Cats”?", 
+	     "answers" : ["Aji Island", "Tashirojima Island", "Dejima Island", "Izushima island"], 
+	     "correct" : "Tashirojima Island"},
+
+"fukushima" : { "question" : "Fukushima is credited as the birthplace of what?", 
+	     "answers" : ["Sake", "Kanamara Matsuri", "Kokeshi dolls", "None of the above"], 
+	     "correct" : "Kokeshi dolls"},
+
+"hokkaido" : { "question" : "Sapporo is famous for its February Snow Festival, which features huge sculptures carved from blocks of ice. How are the largest ice blocks obtained?", 
+	     "answers" : ["The military makes them from snow and water", "The are built up gradually by spraying water", "The are cut from the river ice", "They are frozen artificially indoors"], 
+	     "correct" : "The military makes them from snow and water"},
+
+"aomori" : { "question" : "Where can you first see the morning sun in Aomori Prefecture?", 
+	     "answers" : ["Hashikami Lighthouse", "Omazaki Lighthouse", "Tappizaki Lighthouse", "All of them"], 
+	     "correct" : "Hashikami Lighthouse"},
+
+"iwate" : { "question" : "In Rikuzentakata, two festivals with the same name but different meanings are held on the same day. What kind of festival is that?", 
+	     "answers" : ["Tanabata", "Yosakoi Dance", "Hanagasa Hat", "There are no two festivals with the same name"], 
+	     "correct" : "Tanabata"},
+
+"akita" : { "question" : "The region of Akita was created from which two ancient provinces?", 
+	     "answers" : ["Omi and Mino", "Dewa and Mutsu", "Kozuke and Shimotsuke", "Shimano and Hida"], 
+	     "correct" : "Dewa and Mutsu"},
+
+"yamagata" : { "question" : "Yamagata Prefecture is the largest producer of what?", 
+	     "answers" : ["Apples", "Sake", "Cherries", "Strawberries"], 
+	     "correct" : "Cherries"},
+
+"niigata" : { "question" : "Niigata is home to the largest number of what?", 
+	     "answers" : ["Temples", "Shrines", "Rice paddy fields", "National parks"], 
+	     "correct" : "Shrines"},
+
+"tochigi" : { "question" : "What was Tochigi known as before the Meiji Restoration?", 
+	     "answers" : ["Shimotsuke Province", "Shimosa Province", "Kozuke Province", "Hitachi Province"], 
+	     "correct" : "Shimotsuke Province"},
+
+"ibaraki" : { "question" : "Which of the following expressways do not pass through Ibaraki prefecture?", 
+	     "answers" : ["Joban Expressway", "Shin-Kuko Expressway", "North Kanto Expressway", "East Kanto Expressway"], 
+	     "correct" : "Shin-Kuko Expressway"},
+
+"chiba" : { "question" : "The Tokyo Disney Resort is located in which city in Chiba prefecture?", 
+	     "answers" : ["Chiba city", "Funabashi", "Sakura", "Urayasu"], 
+	     "correct" : "Urayasu"},
+
+"gunma" : { "question" : "Which of the following mountains is not located in Gunma prefecture?", 
+	     "answers" : ["Mount Akagi", "Mount Haruna", "Mount Asama", "Mount Kirigamine"], 
+	     "correct" : "Mount Kirigamine"},
+
+"saitama" : { "question" : "What is the prefectural mascot of Saitama prefecture?", 
+	     "answers" : ["Kobaton", "Funassyi", "Hustle Komon", "Hishimaru-kun"], 
+	     "correct" : "Kobaton"},
+
+"tokyo" : { "question" : "When did Tokyo become the capital of japan?", 
+	     "answers" : ["1872", "1912", "1868", "1943"], 
+	     "correct" : "1868"},
+
+"kanagawa" : { "question" : "Which temple in Kanagawa prefecture houses one of the three Daibutsu of Japan?", 
+	     "answers" : ["Nihon-ji temple", "Kotoku-in temple", "Hoko-ji temple", "Nanzo-in temple"], 
+	     "correct" : "Kotoku-in temple"},
+
+"yamanashi" : { "question" : "Yamanashi prefecture is the top domestic producer of what?", 
+	     "answers" : ["Rice", "Sake", "Apples", "Wine"], 
+	     "correct" : "Wine"},
+
+"shizuoka" : { "question" : "Which town in Shizuoka prefecture holds the first cherry blossom festival in Honshu?", 
+	     "answers" : ["Kawazu", "Yoshida", "Mori", "Shimizu"], 
+	     "correct" : "Kawazu"},
+
+"aichi" : { "question" : "Aichi prefecture is the birthplace of what?", 
+	     "answers" : ["Sake", "Pachinko", "Manga", "Kabuki"], 
+	     "correct" : "Pachinko"},
+
+"nagano" : { "question" : "Nagano prefecture hosts the headquarters of which large Japanese corporation?", 
+	     "answers" : ["Shimizu", "KDDI", "Vaio", "Panasonic"], 
+	     "correct" : "Vaio"},
+
+"gifu" : { "question" : "Gifu prefecture is famous for the historical Shirakawa-go village. When was the village built?", 
+	     "answers" : ["7000 B.C.", "700 A.D.", "1176", "1800"], 
+	     "correct" : "1800"},
+
+"toyama" : { "question" : "Which of the following diseases originated in Toyama prefecture?", 
+	     "answers" : ["Minamata disease", "Onsan illness", "Itai-itai disease", "None of the above"], 
+	     "correct" : "Itai-itai disease"},
+
+"ishikawa" : { "question" : "One of the Three Great Gardens of Japan is located in Ishikawa prefecture. Which one?", 
+	     "answers" : ["Kenroku-en", "Koraku-en", "Kairaku-en", "None of the above"], 
+	     "correct" : "Kenroku-en"},
+
+"fukui" : { "question" : "Fukui prefecture is the birthplace of what?", 
+	     "answers" : ["Zen Buddhism", "Echizen pottery", "Sake", "Japanese swordsmithing"], 
+	     "correct" : "Echizen pottery"},
+
+"shiga" : { "question" : "What fraction of Shiga prefecture is occupied by Lake Biwa, the largest lake in Japan?", 
+	     "answers" : ["One-half", "One-third", "One-sixth", "One-eighth"], 
+	     "correct" : "One-sixth"},
+
+"mie" : { "question" : "Mie Prefecture forms the eastern part of which Peninsula?", 
+	     "answers" : ["Chita Peninsula", "Kii Peninsula", "Oga Peninsula", "Miura Peninsula"], 
+	     "correct" : "Kii Peninsula"},
+
+"nara" : { "question" : "Which ancient city in Nara prefecture served as Japan's first permanent capital?", 
+	     "answers" : ["Heijo", "Naniwa", "Heian", "Nagaoka"], 
+	     "correct" : "Heijo"},
+
+"wakayama" : { "question" : "Wakayama prefecture is the birthplace of which Buddhist sect?", 
+	     "answers" : ["Tendai sect", "Shingon sect", "Jodo sect", "Nichiren sect"], 
+	     "correct" : "Shingon sect"},
+
+"osaka" : { "question" : "Osaka prefecture is home to the oldest Buddhist temple in Japan. Which one?", 
+	     "answers" : ["Kanshin-ji", "Sumiyoshi Taisha", "Shitenno-ji", "Todai-ji"], 
+	     "correct" : "Shitenno-ji"},
+
+"kyoto" : { "question" : "Kyoto was the capital of Japan for more than 1000 years. Which time period was that?", 
+	     "answers" : ["700 BC to 755", "178 to 1180", "657 to 1801", "794 to 1868"], 
+	     "correct" : "794 to 1868"},
+
+"hyogo" : { "question" : "Himeji Castle is the largest and most visited castle in Japan. What is the castle's unofficial nickname?", 
+	     "answers" : ["The Big Castle", "The White Castle", "The Old Castle", "The Kansai Castle"], 
+	     "correct" : "The White Castle"},
+
+"okayama" : { "question" : "Okayama prefecture is often called what?", 
+	     "answers" : ["The land of sunshine", "The land of rain", "The land of castles", "The land of rivers"], 
+	     "correct" : "The land of sunshine"},
+
+"tottori" : { "question" : "How old are the Tottori Sand Dunes?", 
+	     "answers" : ["500,000 years old", "100,000 years old", "50,000 years old", "5000 years old"], 
+	     "correct" : "100,000 years old"},
+
+"hiroshima" : { "question" : "Hiroshima prefecture is known for the floating Torii Gate. What year was the famous Torii erected?", 
+	     "answers" : ["593", "879", "1123", "1461"], 
+	     "correct" : "593"},
+
+"shimane" : { "question" : "Shimane prefecture is home to the oldest Shinto shrine in Japan. Which one?", 
+	     "answers" : ["Hiyoshi Taisha", "Suwa Taisha", "Munakata Taisha", "Izumo Taisha"], 
+	     "correct" : "Izumo Taisha"},
+
+"yamaguchi" : { "question" : "Which of the following national parks is not located in Yamaguchi prefecture?", 
+	     "answers" : ["Setonaikai National Park", "Iwakiyama National Park", "Rakanzan National Park", "Saikai National Park"], 
+	     "correct" : "Saikai National Park"},
+
+"kagawa" : { "question" : "Kagawa is the first place in Japan to successfully cultivate what fruit?", 
+	     "answers" : ["Grapes", "Strawberries", "Olives", "Raspberries"], 
+	     "correct" : "Olives"},
+
+"tokushima" : { "question" : "Tokushima prefecture is home to the largest dance festival in Japan. Which one?", 
+	     "answers" : ["Awa Festival", "Dontaku Festival", "Yosakoi Festival", "Jidai Festival"], 
+	     "correct" : "Awa Festival"},
+
+"ehime" : { "question" : "Ehime prefecture is home to the oldest hot spring in Japan. Which one?", 
+	     "answers" : ["Beppu Onsen", "Hakone Onsen", "Kusatsu Onsen", "Dogo Onsen"], 
+	     "correct" : "Dogo Onsen"},
+
+"kochi" : { "question" : "Kochi is the birthplace of which revolutionary and influential figure of the Meiji Restoration?", 
+	     "answers" : ["Sakamoto Ryoma", "Saigo Takamori", "Kido Takayoshi", "Ito Hirobumi"], 
+	     "correct" : "Sakamoto Ryoma"},
+
+"oita" : { "question" : "There are eight popular hot springs in Beppu, Oita prefecture, collectively known as what?", 
+	     "answers" : ["The Eight Hells of Beppu", "The Eight Springs of Beppu", "The Eight Paradise of Beppu", "The Eight Holes of Beppu"], 
+	     "correct" : "The Eight Hells of Beppu"},
+
+"miyazaki" : { "question" : "Miyazaki prefecture is the home of which fruit grown in Japan?", 
+	     "answers" : ["Kaki", "Shikuwasa", "Hyuganatsu", "Ume"], 
+	     "correct" : "Hyuganatsu"},
+
+"kagoshima" : { "question" : "Kagoshima prefecture is home to the most active volcano in Japan. Which one?", 
+	     "answers" : ["Mount Kuju", "Mount Kirishima", "Sakurajima", "Mount Aso"], 
+	     "correct" : "Sakurajima"},
+
+"kumamoto" : { "question" : "Kumamoto prefecture is home to the largest stone water bridge in Japan. Which one?", 
+	     "answers" : ["Tsujun Bridge", "Akashi Kaikyo Bridge", "Megane Bridge", "Kintai Bridge"], 
+	     "correct" : "Tsujun Bridge"},
+
+"nagasaki" : { "question" : "The clock at the Nagasaki Atomic Bomb Museum has stopped at what time on the day of Nagasaki bombing?", 
+	     "answers" : ["10:16", "11:02", "12:30", "15:43"], 
+	     "correct" : "11:02"},
+
+"saga" : { "question" : "Saga prefecture is famous for being the birthplace of what?", 
+	     "answers" : ["Sake", "Pottery", "Sticky Rice", "Ceramics"], 
+	     "correct" : "Ceramics"},
+
+"fukuoka" : { "question" : "Which famous Japanese company was founded in Fukuoka prefecture?", 
+	     "answers" : ["SoftBank", "Shiseido", "Canon", "Bridgestone"], 
+	     "correct" : "Bridgestone"},
+
+"okinawa" : { "question" : "When did Okinawa become a Japanese prefecture?", 
+	     "answers" : ["1879", "1609", "1872", "1972"], 
+	     "correct" : "1879"}
+
+}

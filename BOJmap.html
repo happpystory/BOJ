@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle of Japan/map</title>
+
+    <link rel="stylesheet" href="BOJmap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+</head>
+
+
+
+<body>
+    
+
+    <div id="jp-img">
+
+        
+        <!-- left side score -->
+
+        <div id="textsection">
+            <div id="selecttext">Conquering Japan</div>
+            <div class="sidetext">Prefectures Conqured:<span id="prefconq"> 0</span></div>
+            <div class="sidetext">Prefectures Lost:<span id="preflost"> 0</span></div>
+            <div class="sidetext">Prefectures left:<span id="prefleft"> 27</span></div>
+        </div>
+       
+
+        <!-- map -->
+
+        <div id="semi-inner"> 
+            <img src="pics/japanmap.png" usemap="#jpmap" id="japanmap">
+        </div>
+
+
+        <!-- user name & pic -->
+
+        <div id="userandpic">
+            <div id="username2"></div>
+            <img id="belowpic">
+        </div>
+
+
+        <!-- prefecture name & pic -->
+        
+        <div id="prefandpic">
+            <div id="prefname"></div>
+            <img id="prefmon">
+        </div>
+        
+    </div>
+        
+    
+<!-- clickable areas on the map -->
+
+<map name="jpmap">
+    <area shape="circle" coords="495, 385, 20" href="BOJqa.html" class="maparea" id="gunma">
+    <area shape="circle" coords="482, 333, 20" href="BOJqa.html" class="maparea" id="niigata">
+    <area shape="circle" coords="527, 430, 20" href="BOJqa.html" class="maparea" id="tokyo">
+    <area shape="circle" coords="518, 409, 20" href="BOJqa.html"  class="maparea" id="saitama">
+    <area shape="circle" coords="525, 453, 20" href="BOJqa.html"  class="maparea" id="kanagawa">
+    <area shape="circle" coords="568, 434, 20" href="BOJqa.html"  class="maparea" id="chiba">
+    <area shape="circle" coords="487, 441, 20" href="BOJqa.html"  class="maparea" id="yamanashi">
+    <area shape="circle" coords="535, 366, 20" href="BOJqa.html" class="maparea" id="tochigi">
+    <area shape="circle" coords="570, 387, 20" href="BOJqa.html"  class="maparea" id="ibaraki">
+    <area shape="circle" coords="556, 317, 30" href="BOJqa.html" class="maparea" id="fukushima">
+    <area shape="circle" coords="571, 249, 20" href="BOJqa.html" class="maparea" id="miyagi">
+    <area shape="circle" coords="526, 243, 20" href="BOJqa.html"  class="maparea" id="yamagata">
+    <area shape="circle" coords="590, 171, 40" href="BOJqa.html"  class="maparea" id="iwate">
+    <area shape="circle" coords="531, 173, 30" href="BOJqa.html"  class="maparea" id="akita">
+    <area shape="circle" coords="545, 98, 20" href="BOJqa.html"  class="maparea" id="aomori">
+    <area shape="circle" coords="470, 490, 30" href="BOJqa.html"  class="maparea" id="shizuoka">
+    <area shape="circle" coords="450, 416, 30" href="BOJqa.html"  class="maparea" id="nagano">
+    <area shape="circle" coords="407, 385, 20" href="BOJqa.html"  class="maparea" id="toyama">
+    <area shape="circle" coords="372, 392, 20" href="BOJqa.html"  class="maparea" id="ishikawa">
+    <area shape="circle" coords="398, 445, 20" href="BOJqa.html" class="maparea" id="gifu">
+    <area shape="circle" coords="410, 494, 20" href="BOJqa.html"  class="maparea" id="aichi">
+    <area shape="circle" coords="346, 442, 20" href="BOJqa.html"  class="maparea" id="fukui">
+    <area shape="circle" coords="355, 487, 20" href="BOJqa.html"  class="maparea" id="shiga">
+    <area shape="circle" coords="375, 531, 20" href="BOJqa.html"  class="maparea" id="mie">
+    <area shape="circle" coords="346, 544, 20" href="BOJqa.html"  class="maparea" id="nara">
+    <area shape="circle" coords="330, 575, 20" href="BOJqa.html"  class="maparea" id="wakayama">
+    <area shape="circle" coords="326, 525, 20" href="BOJqa.html"  class="maparea" id="osaka">
+    <area shape="circle" coords="321, 490, 20" href="BOJqa.html"  class="maparea" id="kyoto">
+    <area shape="circle" coords="287, 503, 20" href="BOJqa.html"  class="maparea" id="hyogo">
+    <area shape="circle" coords="236, 517, 20" href="BOJqa.html"  class="maparea" id="okayama">
+    <area shape="circle" coords="235, 481, 20" href="BOJqa.html"  class="maparea" id="tottori">
+    <area shape="circle" coords="182, 541, 20" href="BOJqa.html"  class="maparea" id="hiroshima">
+    <area shape="circle" coords="162, 509, 20" href="BOJqa.html"  class="maparea" id="shimane">
+    <area shape="circle" coords="118, 565, 20" href="BOJqa.html"  class="maparea" id="yamaguchi">
+    <area shape="circle" coords="246, 556, 20" href="BOJqa.html"  class="maparea" id="kagawa">
+    <area shape="circle" coords="263, 577, 20" href="BOJqa.html"  class="maparea" id="tokushima">
+    <area shape="circle" coords="225, 610, 30" href="BOJqa.html"  class="maparea" id="kochi">
+    <area shape="circle" coords="183, 596, 20" href="BOJqa.html"  class="maparea" id="ehime">
+    <area shape="circle" coords="118, 629, 20" href="BOJqa.html"  class="maparea" id="oita">
+    <area shape="circle" coords="117, 696, 20" href="BOJqa.html"  class="maparea" id="miyazaki">
+    <area shape="circle" coords="80, 737, 20" href="BOJqa.html"  class="maparea" id="kagoshima">
+    <area shape="circle" coords="80, 675, 20" href="BOJqa.html"  class="maparea" id="kumamoto">
+    <area shape="circle" coords="29, 660, 20" href="BOJqa.html"  class="maparea" id="nagasaki">
+    <area shape="circle" coords="41, 633, 20" href="BOJqa.html"  class="maparea" id="saga">
+    <area shape="circle" coords="73, 605, 20" href="BOJqa.html"  class="maparea" id="fukuoka">
+    <area shape="circle" coords="267, 215, 50" href="BOJqa.html"  class="maparea" id="hokkaido">
+    <area shape="circle" coords="60, 437, 20" href="BOJqa.html"  class="maparea" id="okinawa">
+</map>
+
+
+
+<!-- back  button -->
+
+<button id="back">Back</button>
+
+
+
+<!-- score board -->
+
+<div id="modal">
+    <div id="modal-content"> 
+        <span id="close">&times;</span>
+        <div id="modal-text">
+            <div id="selecttext">Score</div>
+            <div class="sidetext">Prefectures Conqured:<span id="modal-prefconq"> 0</span></div>
+            <div class="sidetext">Prefectures Lost:<span id="modal-preflost"> 0</span></div>
+            <button id="restart">Play Again!</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+  <!-- scripts -->
+  
+  <script src="BOJmap.js"></script>
+
+
+
+</body>
+</html>
