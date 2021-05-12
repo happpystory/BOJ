@@ -181,13 +181,23 @@ function ifwrong() {
         if(counting == 0) { 
             clearInterval(countinterval)
             $(".a").removeClass("h")
+            
+            if (isNaN(allprefcount)) allprefcount = 0;
+            
             allprefcount++
             localStorage.setItem("counterofallpref", allprefcount)
             $(".a").off("mousedown")
+
+            if (isNaN(lostcount)) lostcount = 0;
+
             lostcount++;
 
             localStorage.setItem("counteroflostpref", lostcount)
-        
+
+            localStorage.setItem("noanswer", "yes")
+
+            
+
             setTimeout(ifwrong, 3000)
         }
         
