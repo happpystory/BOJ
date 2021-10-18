@@ -84,6 +84,7 @@ body {
 
 
 #main  {
+    position:relative;
     background-color: rgba(255, 255, 255, 0.459);
     width: 400px;
     height:754px;
