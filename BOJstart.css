@@ -21,7 +21,8 @@
     top:200px;
     left:0;
     right:0;
-    margin: auto;
+    margin-right: auto;
+    margin-left:auto;
     font-size: 20px;
     border: none;
     border-bottom: 1px solid;
